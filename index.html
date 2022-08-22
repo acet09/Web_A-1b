@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Just 쇼핑몰</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <script src="js/jquery-1.12.3.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header id="hd">
+      <h1 class="hd__logo">
+        <a href="#">
+          <img src="images/header/hd-logo.png" alt="hd-logo">
+        </a>
+      </h1>      
+      <nav id="gnb">
+        <ul class="gnb__main">
+          <li>
+            <a href="#">탑</a>
+            <ul class="gnb__sub">
+              <li><a href="#">블라우스</a></li>
+              <li><a href="#">티</a></li>
+              <li><a href="#">셔츠</a></li>
+              <li><a href="#">니트</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">아우터</a>
+            <ul class="gnb__sub">
+              <li><a href="#">자켓</a></li>
+              <li><a href="#">코트</a></li>
+              <li><a href="#">가디건</a></li>
+              <li><a href="#">머플러</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">팬츠</a>
+            <ul class="gnb__sub">
+              <li><a href="#">청바지</a></li>
+              <li><a href="#">짧은바지</a></li>
+              <li><a href="#">긴바지</a></li>
+              <li><a href="#">레깅스</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">악세서리</a>
+            <ul class="gnb__sub">
+              <li><a href="#">귀고리</a></li>
+              <li><a href="#">목걸이</a></li>
+              <li><a href="#">반지</a></li>
+              <li><a href="#">팔찌</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>  
+    <section id="slide">
+      <h2 class="txhd">slide</h2>
+      <div class="slide__box">
+        <div class="slide__con1">
+          <a href="#">
+            <p>베이직한 디자인, 데일리 감성 원피스</p>
+            <span>콜유 잔줄 반오픈원피스 27,800원</span>
+          </a>
+        </div>
+        <div class="slide__con2">
+          <a href="#">
+            <p>상금발랄 디자인, 톡톡튀는 니트</p>
+            <span>밀키 루즈핏 하찌롱니트 17,900원</span>
+          </a>
+        </div>
+        <div class="slide__con3">
+          <a href="#">
+            <p>트랜디한, 계절의 컬러를 입다</p>
+            <span>코렉트 컬러쭈리 후드집업 26,900원</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contents">
+      <h2 class="txhd">contents</h2>
+      <div id="notgall">
+        <div class="notgall__title">
+          <a href="#" class="active">공지사항</a>
+          <a href="#">갤러리</a>
+        </div>
+        <div class="notgall__con">
+          <div id="notice">
+            <ul>
+              <li>
+                <a href="#">
+                  <p>현금영수증은 신청 절차가 변경됩니다.</p>
+                  <span>2019.02.26</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>이달의 쿠폰 사용법 안내입니다.</p>
+                  <span>2019.02.25</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>회원가입과 탈퇴에 대한 개인정보처리 안내입니다.</p>
+                  <span>2019.02.25</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <p>입금자를 찾습니다.</p>
+                  <span>2019.02.01</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div id="gallery">
+            <div>
+              <img src="images/contents/gallery/gall1.png" alt="g1l">
+              <a href="#">갤러리1</a>
+            </div>
+            <div>
+              <img src="images/contents/gallery/gall2.png" alt="g12">
+              <a href="#">갤러리2</a>
+            </div>
+            <div>
+              <img src="images/contents/gallery/gall3.png" alt="g13">
+              <a href="#">갤러리3</a>
+            </div>
+          </div>
+        </div>        
+      </div>
+      <div id="banner">
+        <img src="images/contents/banner/banner.png" alt="banner">
+        <a href="#">배너</a>
+      </div>
+      <div id="direct">
+        <a href="#">
+          <img src="images/contents/direct/024-spades.png" alt="spades">
+          <span>상담하기</span>
+        </a>
+        <a href="#">
+          <img src="images/contents/direct/025-clubs.png" alt="clubs">
+          <span>피트니스</span>
+        </a>
+        <a href="#">
+          <img src="images/contents/direct/026-diamonds.png" alt="diamonds">
+          <span>장바구니</span>
+        </a>        
+      </div>
+      <div id="pop">
+        <h3>Fitness Wear</h3>
+        <p>저스트원 슬리밍 프로젝트<br>
+          이제 운동도 패션입니다.</p>
+        <div class="pop__btnbox">
+          <button type="button" id="poplink" name="poplink">Fiteness Wear<br>바로가기</button>
+          <button type="button" id="popclose" name="popclose">닫기</button>
+        </div>
+      </div>
+    </section>
+    <footer id="ft">
+      <div class="ft__logo">
+        <img src="images/footer/ft-logo.png" alt="ft-logo">
+      </div>
+      <address>
+        (주)JUST 쇼핑몰 / 상호와 이미지, 사용문구, 디자인은 저작권법 7233호에 의해 보호받고 있습니다.<br> 
+        모든 자료 도용 시 고발조치 후 법적책임을 물을 수 있습니다.<br>
+        <span>copyright(c) JUST쇼핑몰. All rights reserved.</span>
+      </address>
+      <div class="ft__sns">
+          <a href="#">
+            <img src="images/footer/419-lanyrd.png" alt="lanyrd">
+            <span>lanyrd</span>
+          </a>
+          <a href="#">
+            <img src="images/footer/430-steam2.png" alt="steam">
+            <span>steam</span>
+          </a>        
+          <a href="#">
+            <img src="images/footer/433-github.png" alt="github">
+            <span>github</span>
+          </a>                  
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
